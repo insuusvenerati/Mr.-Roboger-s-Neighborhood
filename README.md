@@ -29,3 +29,11 @@ This web application takes a number from the user and generates a list from 0 to
 Please feel free to contribute to the code if you have any improvements or find any issues. If you have any questions or concerns, do not hesitate to contact me.
 
 Copyright (c) 2023 Sean Norwood
+
+## Tests
+
+Describe: numberSubstitution()
+
+Test: "It should return an array with a 0 if the number 0 is inputted"
+Code: numberSubstitution(0);
+Expected Output: [0]
