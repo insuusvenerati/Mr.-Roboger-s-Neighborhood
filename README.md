@@ -37,3 +37,7 @@ Describe: numberSubstitution()
 Test: "It should return an array with a 0 if the number 0 is inputted"
 Code: numberSubstitution(0);
 Expected Output: [0]
+
+Test: "It should replace numbers that contain a "1" with "Beep"
+Code: numberSubstitution(1)
+Expected Output: [0,"Beep"]
