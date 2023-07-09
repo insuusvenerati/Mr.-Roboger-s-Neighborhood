@@ -6,3 +6,7 @@ document.getElementById("number-form").addEventListener("submit", function (even
   outputEl.innerHTML = output.join(", ");
   outputEl.classList.add("show");
 });
+
+function numberSubstitution(number) {
+  if (number === 0) return [0];
+}
