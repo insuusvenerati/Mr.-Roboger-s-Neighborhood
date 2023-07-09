@@ -16,6 +16,8 @@ function numberSubstitution(number) {
       output.push("Beep!");
     } else if (i.toString().includes("2")) {
       output.push("Boop!");
+    } else if (i.toString().includes("3")) {
+      output.push("Won't you be my neighbor?");
     } else {
       output.push(i);
     }
