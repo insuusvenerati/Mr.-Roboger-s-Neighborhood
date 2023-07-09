@@ -6,24 +6,3 @@ document.getElementById("number-form").addEventListener("submit", function (even
   outputEl.innerHTML = output.join(", ");
   outputEl.classList.add("show");
 });
-
-/**
- *
- * @param {string} number
- * @returns
- */
-function numberSubstitution(number) {
-  const output = [];
-  for (let i = 0; i <= number; i++) {
-    if (i.toString().includes("3")) {
-      output.push("Won't you be my neighbor?");
-    } else if (i.toString().includes("2")) {
-      output.push("Boop!");
-    } else if (i.toString().includes("1")) {
-      output.push("Beep!");
-    } else {
-      output.push(i);
-    }
-  }
-  return output;
-}
